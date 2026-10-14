@@ -1,0 +1,106 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deternary - Command Documentation</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* AI file for documentation */
+        /* Document-specific styles */
+        .docs-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: rgb(20, 20, 20);
+            border: 4px solid black;
+            border-radius: 5px;
+            color: #fff;
+            text-align: left;
+            font-family: monospace;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: rgb(69, 166, 241);
+            text-decoration: none;
+            border: 1px solid rgb(69, 166, 241);
+            padding: 8px 16px;
+            border-radius: 4px;
+        }
+        .back-btn:hover {
+            background-color: rgba(69, 166, 241, 0.2);
+        }
+        .doc-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .doc-table th, .doc-table td {
+            padding: 15px;
+            border-bottom: 1px solid rgb(40, 40, 40);
+            vertical-align: middle;
+        }
+        .doc-table th {
+            background-color: rgb(30, 30, 30);
+            color: rgb(255, 255, 0);
+            text-transform: uppercase;
+        }
+        .glyph-canvas {
+            background-color: black;
+            border: 1px solid rgb(54, 51, 51);
+            display: block;
+        }
+        .cmd-code {
+            color: rgb(76, 159, 210);
+            font-weight: bold;
+        }
+    </style>
+<script defer data-domain="deternarycopy.tiiny.site" src="https://analytics.tiiny.site/js/plausible.js"></script><script type="text/javascript" src="https://tiiny.host/ad-script.js"></script></head>
+<body>
+    <div class="docs-container">
+        <a href="index.html" class="back-btn">&larr; Back to Emulator</a>
+        <h1>System Command Documentation</h1>
+        <p>Reference guide for the ternary processor instruction set architecture.</p>
+
+        <table class="doc-table">
+            <thead>
+                <tr>
+                    <th style="width: 10%">Opcode</th>
+                    <th style="width: 15%">Mnemonic</th>
+                    <th style="width: 15%">Glyph</th>
+                    <th style="width: 60%">Description</th>
+                </tr>
+            </thead>
+            <tbody id="docs-tbody">
+                </tbody>
+                
+        </table>
+        <h1>Task 0: Maxmimum of two.</h1>
+        <p>Input: two numbers, A >= 0, B <= 728 </p>
+        <p>Output: one number, the greater of A and B.</p>
+        
+
+        <h1>Task 1: Square root.</h1>
+        <p>Input: one number, 0 <= N <= 255 </p>
+        <p>Output: one number, the square root of N, floored to an integer.</p>
+
+        <h1>Task 2: Greatest common divisor.</h1>
+        <p>Input: 2 numbers, 0 <= A <= 728, 0 <= B <= 728 </p>
+        <p>Output: one number, the biggest number that both A and B are divisible by.</p>
+
+        <h1>Task 3: Ternary representation.</h1>
+        <p>Input: 1 number, 100 <= N <= 728</p>
+        <p>Output: seven numbers, the lower 7 trits of N’s ternary representation, outputted one by one.</p>
+
+        <h1>Task 4: Next prime.</h1>
+        <p>Input: 1 number, 100 <= N <= 727</p>
+        <p>Output: one number, smallest prime number that’s bigger than or same as N.</p>
+    </div>
+
+    
+    <script src="docs.js"></script>
+</body>
+</html>
